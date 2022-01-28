@@ -6,7 +6,7 @@ scalaVersion := "2.13.8"
 libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value
 
 publishTo := Some(
-  "GitHub <THK-ADV> Apache Maven Packages" at "https://maven.pkg.github.com/THK-ADV/filename"
+  "GitHub <THK-ADV> filename" at "https://maven.pkg.github.com/THK-ADV/filename",
 )
 
 publishConfiguration := publishConfiguration.value.withOverwrite(true)
