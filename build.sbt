@@ -9,6 +9,8 @@ publishTo := Some(
   "GitHub <THK-ADV> Apache Maven Packages" at "https://maven.pkg.github.com/THK-ADV/filename"
 )
 
+publishConfiguration := publishConfiguration.value.withOverwrite(true)
+
 publishMavenStyle := true
 
 credentials += Credentials(
